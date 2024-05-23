@@ -62,6 +62,13 @@
       - !type:GibBehavior { }
     - trigger:
         !type:DamageTypeTrigger
+        damageType: Despawn # Despawn the player
+        damage: 100
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTypeTrigger
         damageType: Heat
         damage: 1500
       behaviors:

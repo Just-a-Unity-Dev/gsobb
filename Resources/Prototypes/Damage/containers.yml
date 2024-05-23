@@ -6,6 +6,8 @@
     - Toxin
     - Airloss
     - Genetic
+  supportedTypes:
+    - Despawn
 
 - type: damageContainer
   id: Inorganic
