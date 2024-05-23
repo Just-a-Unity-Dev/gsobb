@@ -29,7 +29,7 @@ public sealed partial class RottingComponent : Component
     /// How long in between each rot update.
     /// </summary>
     [DataField]
-    public TimeSpan RotUpdateRate = TimeSpan.FromSeconds(5);
+    public TimeSpan RotUpdateRate = TimeSpan.FromSeconds(1);
 
     /// <summary>
     /// How long has this thing been rotting?
@@ -45,8 +45,8 @@ public sealed partial class RottingComponent : Component
     {
         DamageDict = new()
         {
-            { "Blunt", 0.06 },
-            { "Cellular", 0.06 }
+            { "Despawn", 0.5 }
+            // { "Despawn", 25 },
         }
     };
 }

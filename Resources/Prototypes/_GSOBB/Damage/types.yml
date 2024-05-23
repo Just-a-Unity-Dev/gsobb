@@ -1,0 +1,6 @@
+# Damage for entity despawning.
+- type: damageType
+  id: Despawn
+  name: damage-type-despawn
+  armorCoefficientPrice: 1
+  armorFlatPrice: 1
