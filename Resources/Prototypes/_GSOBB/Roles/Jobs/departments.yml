@@ -1,0 +1,8 @@
+- type: department
+  id: Survivors
+  description: department-Civilian-description
+  color: "#FFFFFF"
+  weight: 100
+  roles:
+  - Passenger
+  - SecurityOfficer
