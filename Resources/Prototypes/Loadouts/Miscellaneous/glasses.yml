@@ -10,12 +10,6 @@
 
 - type: loadoutEffectGroup
   id: JensenTimer
-  effects:
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:DepartmentTimeRequirement
-      department: Cargo
-      time: 36000 #10 hours of being a space trucker
 
 # Basic options
 # Glasses
@@ -29,7 +23,7 @@
     eyes: ClothingEyesGlasses
 
 # Special options
-# Jamjar    
+# Jamjar
 - type: loadout
   id: GlassesJamjar
   equipment: GlassesJamjar

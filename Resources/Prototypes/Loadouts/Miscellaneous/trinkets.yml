@@ -1,12 +1,6 @@
 # Timers
 - type: loadoutEffectGroup
   id: Command
-  effects:
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:DepartmentTimeRequirement
-      department: Command
-      time: 3600 # 1 hour
 
 # Plushies
 - type: loadout
@@ -18,7 +12,7 @@
   storage:
     back:
     - PlushieLizard
-    
+
 - type: loadout
   id: PlushieSpaceLizard
   equipment: PlushieSpaceLizard

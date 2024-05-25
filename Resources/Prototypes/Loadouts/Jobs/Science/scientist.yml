@@ -1,12 +1,6 @@
 # Senior Time
 - type: loadoutEffectGroup
   id: SeniorResearcher
-  effects:
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:DepartmentTimeRequirement
-      department: Science
-      time: 216000 #60 hrs
 
 # Head
 

@@ -12,5 +12,11 @@
 - type: startingGear
   id: PassengerGear
   equipment:
-    id: PassengerPDA
-    ears: ClothingHeadsetGrey
+    outerClothing: ClothingOuterWinterCoatToggleable
+    belt: ClothingBeltUtility
+    back: ClothingBackpackSatchelSalvage
+    shoes: ClothingShoesBootsWinter
+    jumpsuit: ClothingUniformJumpsuitOperative
+    gloves: ClothingHandsGlovesColorBlack
+    mask: ClothingMaskGasExplorer
+
