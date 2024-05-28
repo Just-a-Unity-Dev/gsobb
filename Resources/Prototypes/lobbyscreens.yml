@@ -16,15 +16,15 @@
 
 - type: lobbyBackground
   id: AME
-  background: /Textures/LobbyScreens/ame.webp
+  background: /Textures/LobbyScreens/ame.png
 
 - type: lobbyBackground
   id: AME2
-  background: /Textures/LobbyScreens/ame2.webp
+  background: /Textures/LobbyScreens/ame2.png
 
 - type: lobbyBackground
   id: AME3
-  background: /Textures/LobbyScreens/ame3.webp
+  background: /Textures/LobbyScreens/ame3.png
 
 - type: lobbyBackground
   id: GoAway
