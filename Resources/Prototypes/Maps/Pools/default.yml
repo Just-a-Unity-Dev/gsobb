@@ -1,6 +1,7 @@
 - type: gameMapPool
   id: DefaultMapPool
-  maps: [Dev]
+  maps:
+  - Dev
 #  - Atlas
 #  - Bagel
 #  - Box
