@@ -881,6 +881,22 @@ namespace Content.Client.Lobby.UI
                 }
             }
 
+            var i = 0;
+            foreach (var (department, control) in _jobCategories)
+            {
+                var firstCategoryInThisLoop = i == 0;
+                if (firstCategoryInThisLoop && control.ChildCount <= 1)
+                {
+                    control.Dispose();
+                }
+                else if (control.ChildCount <= 2)
+                {
+                    control.Dispose();
+                }
+
+                i++;
+            }
+
             UpdateJobPriorities();
         }
 
