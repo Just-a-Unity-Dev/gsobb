@@ -1,0 +1,33 @@
+- type: loadoutGroup
+  id: PassengerJumpsuit
+  name: loadout-group-passenger-jumpsuit
+  loadouts:
+  - ScavJumpsuit
+  - ScavJumpskirt
+
+- type: loadoutGroup
+  id: PassengerFace
+  name: loadout-group-passenger-mask
+  loadouts:
+  - ExplorersMask
+  - GasMask
+
+- type: loadoutGroup
+  id: PassengerGloves
+  name: loadout-group-passenger-gloves
+  loadouts:
+  - BlackGloves
+  - PassengerGloves
+
+- type: loadoutGroup
+  id: PassengerOuterClothing
+  name: loadout-group-passenger-outerclothing
+  loadouts:
+  - PassengerWintercoat
+
+- type: loadoutGroup
+  id: PassengerShoes
+  name: loadout-group-passenger-shoes
+  loadouts:
+  - WinterBoots
+  - BlackShoes

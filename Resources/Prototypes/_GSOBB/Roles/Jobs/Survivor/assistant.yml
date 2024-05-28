@@ -13,10 +13,6 @@
 - type: startingGear
   id: PassengerGear
   equipment:
-    outerClothing: ClothingOuterWinterCoatToggleable
     belt: ClothingBeltUtility
     back: ClothingBackpackSatchelSalvage
-    shoes: ClothingShoesBootsWinter
-    jumpsuit: ClothingUniformJumpsuitOperative
-    gloves: ClothingHandsGlovesColorBlack
-    mask: ClothingMaskGasExplorer # TODO: Makarov in pockets
+    # TODO: Makarov in pockets
