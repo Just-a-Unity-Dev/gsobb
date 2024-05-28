@@ -1,0 +1,5 @@
+- type: entity
+  parent: ClothingHeadHelmetSwatSyndicate
+  id: ClothingHeadHelmetSyndicateInfantry
+  name: syndicate infantry helmet
+  description: A standard helmet for those working under the Syndicate conglomerate.

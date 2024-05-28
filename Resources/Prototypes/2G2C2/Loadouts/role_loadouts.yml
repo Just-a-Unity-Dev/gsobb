@@ -1,0 +1,10 @@
+# Mercs don't get a loadout because uniform rules
+- type: roleLoadout
+  id: JobPassenger
+  groups:
+  - PassengerJumpsuit
+  - PassengerFace
+  - PassengerGloves
+  - PassengerOuterClothing
+  - PassengerShoes
+#  - Trinkets

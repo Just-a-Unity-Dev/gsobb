@@ -1,0 +1,18 @@
+- type: job
+  id: Passenger
+  name: job-name-passenger
+  description: job-description-passenger
+  setPreference: true
+  playTimeTracker: JobPassenger
+  startingGear: PassengerGear
+  icon: "JobIconPassenger"
+  supervisors: job-supervisors-everyone
+  access:
+  - Maintenance
+
+- type: startingGear
+  id: PassengerGear
+  equipment:
+    belt: ClothingBeltUtility
+    back: ClothingBackpackSatchelSalvage
+    # TODO: Makarov in pockets

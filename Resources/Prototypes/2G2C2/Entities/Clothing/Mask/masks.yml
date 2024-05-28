@@ -1,0 +1,6 @@
+- type: entity
+  parent: ClothingMaskGasERT
+  id: 2G2CClothingMaskGasSurplus
+  name: surplus gas mask
+  description: A surplus gas mask used in NT's corps.
+  components: []

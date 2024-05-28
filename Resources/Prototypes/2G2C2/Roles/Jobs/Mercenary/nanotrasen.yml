@@ -1,0 +1,12 @@
+- type: startingGear
+  id: NanotrasenFootsoldierGear
+  equipment:
+    head: ClothingHeadHelmetERTLeader
+    outerClothing: ClothingOuterVestWeb
+    belt: 2G2CClothingBeltMilitaryWebbingMagazine
+    back: 2G2CClothingBackpackSatchelRugged
+    shoes: ClothingShoesBootsCombatFilled
+    jumpsuit: 2G2CClothingUniformJumpsuitNanotrasenFootsoldier
+    gloves: ClothingHandsGlovesCombat
+    mask: 2G2CClothingMaskGasSurplus
+    pocket1: WeaponPistolMk58

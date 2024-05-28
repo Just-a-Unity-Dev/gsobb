@@ -1,0 +1,6 @@
+- type: entity
+  parent: ClothingBackpackSatchelEngineering
+  id: 2G2CClothingBackpackSatchelRugged
+  name: rugged satchel
+  description: A tough and rugged satchel.
+  components: []

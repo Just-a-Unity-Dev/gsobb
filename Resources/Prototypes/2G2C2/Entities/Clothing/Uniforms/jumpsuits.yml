@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingUniformJumpsuitERTLeader
+  id: 2G2CClothingUniformJumpsuitNanotrasenFootsoldier
+  name: surplus nt infantry uniform
+  description: A surplus uniform for infantry in the NT corps. It looks used.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/ert_leader.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/ert_leader.rsi
