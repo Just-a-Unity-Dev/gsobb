@@ -1,0 +1,23 @@
+- type: job
+  id: NanotrasenMercenary
+  name: job-name-nt-merc
+  description: job-description-merc
+  setPreference: false
+  playTimeTracker: JobMercenaryNT
+  startingGear: NanotrasenFootsoldierGear
+  icon: "JobIconUnknown"
+  supervisors: job-supervisors-hire
+  accessGroups:
+  - AllAccess
+
+- type: job
+  id: SyndicateMercenary
+  name: job-name-syndicate-merc
+  description: job-description-merc
+  setPreference: false
+  playTimeTracker: JobMercenarySyndie
+  startingGear: NanotrasenFootsoldierGear
+  icon: "JobIconUnknown"
+  supervisors: job-supervisors-hire
+  accessGroups:
+  - AllAccess

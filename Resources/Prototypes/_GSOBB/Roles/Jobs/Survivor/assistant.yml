@@ -2,6 +2,7 @@
   id: Passenger
   name: job-name-passenger
   description: job-description-passenger
+  setPreference: true
   playTimeTracker: JobPassenger
   startingGear: PassengerGear
   icon: "JobIconPassenger"
@@ -18,5 +19,4 @@
     shoes: ClothingShoesBootsWinter
     jumpsuit: ClothingUniformJumpsuitOperative
     gloves: ClothingHandsGlovesColorBlack
-    mask: ClothingMaskGasExplorer
-
+    mask: ClothingMaskGasExplorer # TODO: Makarov in pockets

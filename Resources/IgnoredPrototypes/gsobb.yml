@@ -1,3 +1,18 @@
+# IgnoredPrototypes is the biggest bullshit ever. It's only real use is for ignoring Guidebook prototypes,
+# and even THEN it sucks at that. Actual fucking bullshit.
+#
+# It's a "soft-ignore" prototype file. I wish it was a "hard-ignore" where you could just ignore a whole file
+# and then create a prototype replacing that file to prevent merge conflicts. It would've been the best tool
+# for forks if it weren't ass.
+
+# NOPE. YOU CANT EVEN TAKE AWAY THE GUIDEBOOK. YOU WILL GET A THOUSAND YAML ERRORS. WHAT THE FUCK IS THE
+# POINT OF THIS THING??? IT "REGISTERS" THE PROTOTYPE UNDER AN ID AND PREVENTS OTHER PROTOTYPES FROM
+# TAKING THAT ID, AND WHILST YES IT DOES "IGNORE PROTOTYPES" IT'S A MASSIVE PAIN IN THE ASS THAT
+# JUST HANDLING THE FUCKING MERGE CONFLICTS YOURSELF IS AN EASIER SOLUTION.
+
+# GET ME OUT OF HERE.
+
 #- /Prototypes/Roles/Jobs
 #- /Prototypes/Maps/Playable
-- /Prototypes/Roles/Jobs/departments.yml
+#- /Prototypes/Roles/Jobs/departments.yml
+#- /Prototypes/Guidebook/

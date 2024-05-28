@@ -1,0 +1,12 @@
+- type: startingGear
+  id: SyndicateInfantryGear
+  equipment:
+    head: ClothingHeadHelmetSyndicateInfantry
+    outerClothing: ClothingOuterWinterSyndieCapArmored
+    belt: 2G2CClothingBeltMilitaryWebbingMagazine
+    back: 2G2CClothingBackpackSatchelRugged
+    shoes: ClothingShoesBootsWinterSyndicate
+    jumpsuit: ClothingUniformJumpsuitOperative
+    gloves: ClothingHandsTacticalMaidGloves
+    mask: ClothingMaskBandBlack
+    pocket1: WeaponPistolViper
