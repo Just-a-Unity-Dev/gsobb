@@ -3,14 +3,14 @@
   name: Urist McPlants
   parent: BaseMobDiona
   id: MobDiona
-  components:
-    - type: Respirator
-      damage:
-        types:
-          Asphyxiation: 0.5
-      damageRecovery:
-        types:
-          Asphyxiation: -1.0
+  components: []
+#    - type: Respirator
+#      damage:
+#        types:
+#          Asphyxiation: 0.5
+#      damageRecovery:
+#        types:
+#          Asphyxiation: -1.0
 
 # Reformed Diona
 - type: entity
@@ -20,4 +20,4 @@
   name: Reformed Diona
   components:
     - type: IsDeadIC
-    - type: RandomHumanoidAppearance 
+    - type: RandomHumanoidAppearance

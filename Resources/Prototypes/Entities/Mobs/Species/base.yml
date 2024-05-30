@@ -147,9 +147,9 @@
     prototype: Human
     requiredLegs: 2
   - type: Identity
-  - type: IdExaminable
+#  - type: IdExaminable
   - type: Hands
-  - type: Internals
+#  - type: Internals
   - type: Inventory
   - type: InventorySlots
   - type: FloatingVisuals
@@ -234,11 +234,11 @@
   abstract: true
   components:
   - type: Flashable
-  - type: Barotrauma
-    damage:
-      types:
-        Blunt: 0.50 #per second, scales with pressure and other constants.
-        Heat: 0.1
+#  - type: Barotrauma
+#    damage:
+#      types:
+#        Blunt: 0.50 #per second, scales with pressure and other constants.
+#        Heat: 0.1
   - type: PassiveDamage # Slight passive regen. Assuming one damage type, comes out to about 4 damage a minute.
     allowedStates:
     - Alive
@@ -293,13 +293,6 @@
     spawned:
       - id: FoodMeat
         amount: 5
-  - type: Respirator
-    damage:
-      types:
-        Asphyxiation: 1.0
-    damageRecovery:
-      types:
-        Asphyxiation: -1.0
   - type: FireVisuals
     alternateState: Standing
 
